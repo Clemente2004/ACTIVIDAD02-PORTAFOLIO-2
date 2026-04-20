@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section id="contacto">
+    <div class="contenedor">
+        <h2 class="titulo-seccion">// contacta conmigo</h2>
+        <div class="contacto-profesional">
+            <div>
+                <h3 style="color:#1B5E7E;">¿Buscas un desarrollador integral?</h3>
+                <p>Estoy disponible para proyectos freelance, pasantías o posiciones junior con alto impacto. Manejo el
+                    ciclo completo de desarrollo y trabajo en equipo.</p>
+                <div class="item-contacto"><i class="fas fa-envelope"></i> everclemente86@gmail.com</div>
+                <div class="item-contacto"><i class="fab fa-github"></i> github.com/clemente2004</div>
+                <div class="item-contacto"><i class="fab fa-linkedin"></i> linkedin.com/in/everclemente-dev</div>
+                <div class="redes-sociales" style="margin-top: 1.5rem;">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-docker"></i></a>
+                    <a href="#"><i class="fab fa-figma"></i></a>
+                </div>
+            </div>
+            <div class="grupo-formulario">
+                <h3 style="color:#1B5E7E;">Escríbeme</h3>
+                <form id="formularioContacto">
+                    <input type="text" id="nombre" placeholder="Nombre completo" required>
+                    <input type="email" id="correo" placeholder="Correo electrónico" required>
+                    <textarea rows="3" id="mensaje"
+                        placeholder="Cuéntame tu proyecto, oferta o colaboración..."></textarea>
+                    <button type="submit" id="botonEnviar">Enviar mensaje <i class="fas fa-arrow-right"></i></button>
+                </form>
+                <div id="retroalimentacionForm" style="margin-top: 12px; font-size: 0.8rem;"></div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

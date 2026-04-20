@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section id="proyectos">
+    <div class="contenedor">
+        <h2 class="titulo-seccion">// proyectos integradores</h2>
+        <div class="cuadricula-proyectos">
+            <div class="tarjeta-proyecto">
+                <div class="imagen-proyecto"><i class="fas fa-chalkboard-user fa-3x"></i></div>
+                <div class="info-proyecto">
+                    <h3>Sistema de Gestión Académica</h3>
+                    <p>Plataforma completa con Angular + Laravel + PostgreSQL. Roles, calificaciones, reportes en tiempo
+                        real y autenticación.</p>
+                    <div class="tecnologias-proyecto">
+                        <span>Angular</span><span>Laravel</span><span>PostgreSQL</span><span>Docker</span></div>
+                    <div class="enlaces-proyecto"><a href="#"><i class="fab fa-github"></i> Repo</a><a href="#"><i
+                                class="fas fa-external-link-alt"></i> Demo</a></div>
+                </div>
+            </div>
+            <div class="tarjeta-proyecto">
+                <div class="imagen-proyecto"><i class="fas fa-warehouse fa-3x"></i></div>
+                <div class="info-proyecto">
+                    <h3>ERP para Pymes (negocios para venta de productos en linea) (Oracle DB)</h3>
+                    <p>Backend con Node.js + Express, frontend Angular (diseño UI avanzado), base de datos Oracle con
+                        procedimientos almacenados.</p>
+                    <div class="tecnologias-proyecto">
+                        <span>Node.js</span><span>Oracle</span><span>Angular</span><span>Docker</span></div>
+                    <div class="enlaces-proyecto"><a href="#"><i class="fab fa-github"></i> Código</a><a href="#"><i
+                                class="fas fa-external-link-alt"></i> Vista previa</a></div>
+                </div>
+            </div>
+            <div class="tarjeta-proyecto">
+                <div class="imagen-proyecto"><i class="fas fa-microblog fa-3x"></i></div>
+                <div class="info-proyecto">
+                    <h3>Sistema Inmobiliario (Flask + MySQL)</h3>
+                    <p>API REST con Flask, autenticación, manejo de usuarios, despliegue con Docker y GitHub Actions.
+                    </p>
+                    <div class="tecnologias-proyecto">
+                        <span>Python/Flask</span><span>MySQL</span><span>JWT</span><span>Docker</span></div>
+                    <div class="enlaces-proyecto"><a href="#"><i class="fab fa-github"></i> Frontend</a><a href="#"><i
+                                class="fas fa-external-link-alt"></i> API Docs</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
